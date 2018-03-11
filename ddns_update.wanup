@@ -1,1 +1,1 @@
-echo "*/10 * * * * root /bin/sh -c /jffs/etc/config/ddns_update.sh /jffs/etc/config/domains.txt> /tmp/ddns_update.log 2>&1" > /tmp/cron.d/ddns_update
+echo "*/10 * * * * root /bin/sh -c /jffs/etc/config/ddns_update.sh /jffs/etc/config/domains> /tmp/ddns_update.log 2>&1" > /tmp/cron.d/ddns_update
